@@ -1,0 +1,66 @@
+
+
+.mt-20 {
+  display: flex;
+  margin-top: 200px;
+
+  div {
+    margin-left: 100px;
+  }
+}
+
+.review-card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(147, 76, 76, 0.137);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+
+  span {
+    font-size: 2em;
+    margin-left: 100px;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .review {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  button {
+    background-color: #5a67d8;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: #4754b6;
+    }
+  }
+}
+
+.main_text {
+  margin-left: 100px;
+}

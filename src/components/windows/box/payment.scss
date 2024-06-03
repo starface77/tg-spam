@@ -1,0 +1,55 @@
+.main-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.for-input select {
+    border: 1px solid #ccc;
+    padding: 10.2px;
+    border-radius: 5px;
+    background-color: #17212B; 
+    color: white;
+    font-family: sans-serif;
+    appearance: none;
+    display: flex;
+    margin-bottom: 9.9px;
+    border-radius: 0px 0px 10px;
+}
+
+.for-input select:focus {
+    outline: none;
+    border-color: #66afe9;
+}
+
+.for-input select option {
+    background-color: #17212B;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.for-input select option:hover,
+.for-input select option:checked {
+    background-color: #66afe9;
+}
+
+.payment-summa input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px 0px 0px;
+    background-color: #17212B;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+.payment-summa input:focus {
+    border-color: #66afe9;
+    outline: 0;
+}
+
+.payment-summa input::placeholder {
+    color: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,48 @@
+$color1: #0E1621;
+$color2: #17212B;
+$color3: #2B5278;
+$color4: #985B72;
+$color5: #293A4C;
+$color6: #7F91A4;
+$color7: #d0d0df;
+$color8: #52CB5F;
+
+@mixin but($col) {
+    width: fit-content;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: $col;
+    color: $color7;
+    transition: .1s;
+    cursor: pointer;
+    -youbkit-touch-callout: none;
+    -youbkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    &:hover {
+        opacity: .7
+    }
+}
+
+.help-item {
+    .left {
+        background-color: rgba(5, 9, 25, 0.249);
+        padding: 20px;
+        display: flex;
+        width: 800px;
+        height: 30px;
+        margin-top: 20px;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .themeofhelp {
+        margin-left: auto;
+    }
+
+}

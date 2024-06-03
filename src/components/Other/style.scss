@@ -1,0 +1,48 @@
+$color1: #0E1621;
+$color2: #17212B;
+$color3: #2B5278;
+$color4: #985B72;
+$color5: #293A4C;
+$color6: #7F91A4;
+$color7: #d0d0df;
+$color8: #52CB5F;
+$color9: #181e23;
+
+
+.main2 {
+    display: flex;
+    .container {
+        text-align: center;
+        margin-left: 100px;
+        margin-top: 100px;
+        background-color: $color2;
+        width: 300px;
+        border-radius: 10px;
+        padding: 20px;
+        span {
+            color: snow;
+        }
+
+        .launch-container {
+            margin-bottom: 20px;
+            .launch-item {
+                margin-bottom: 10px;
+                .key {
+                    font-weight: bold;
+                    color: #333;
+                    display: block;
+                }
+                .value {
+                    color: #666;
+                }
+            }
+            .text-container {
+                background-color: darkgray;
+                border-radius: 5px;
+                padding: 10px;
+                width: 100px;
+            }
+        }
+    }
+}
+

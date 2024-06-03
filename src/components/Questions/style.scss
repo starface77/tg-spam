@@ -1,0 +1,56 @@
+.question {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #17212B;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.question p {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Цвет текста */
+}
+
+.question textarea,
+.question input[type="email"],
+.question input[type="number"] {
+    width: calc(100% - 20px); /* Ширина поля ввода с учетом отступов */
+    background-color: #36454F; /* Цвет фона */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #1C2933; /* Цвет рамки */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff; /* Цвет текста */
+    outline: none; /* Убираем рамку при фокусе */
+}
+
+.question textarea::placeholder,
+.question input[type="email"]::placeholder,
+.question input[type="number"]::placeholder {
+    color: #99AAB5; /* Цвет placeholder */
+}
+
+.question .sign_but {
+    width: 97%;
+    padding: 12px; /* Увеличиваем отступы */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.question .sign_but:hover {
+    background-color: #0056b3;
+}
